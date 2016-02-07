@@ -1,6 +1,3 @@
-17:23:09 ooze 0 $ 
- [/root]  $ vim 2.pp
-
 class::wheezy-workstation {
 
   package { 'tmux':
