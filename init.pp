@@ -1,4 +1,4 @@
-class::wheezy-workstation {
+class wheezy-workstation {
 
   package { 'tmux':
     ensure => 'installed',
