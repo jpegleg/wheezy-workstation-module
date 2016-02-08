@@ -6,6 +6,9 @@ class wheezy-workstation {
   package { 'ipython':
     ensure => 'installed',
   }
+  package { 'openssl':
+    ensure => 'installed',
+  }
   package { 'iceweasel':
     ensure => 'installed',
   }
@@ -13,6 +16,12 @@ class wheezy-workstation {
     ensure => 'installed',
   }
   package { 'tcpdump':
+    ensure => 'installed',
+  }
+  package { 'lsof':
+    ensure => 'installed',
+  }
+  package { 'netcat':
     ensure => 'installed',
   }
   package { 'vim':
